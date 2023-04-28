@@ -1,0 +1,54 @@
+body{
+	background-image: url(coco.jpg);
+	height: 100%;
+}
+.container{
+	text-align: center;
+	height: 300px;
+	width: 800px;
+	top: 200px;
+	left: 100px;
+	position: relative;
+	border: 3px solid wheat;
+	border-radius: 20px;
+	background: transparent;
+	backdrop-filter: blur(12px);
+}
+#dialogoverlay{
+	text-align: center;
+	top: 50px;
+	position: relative;
+}
+.gamediv h1{
+    font-family: calibri;
+    color: indigo;
+}
+.flex {
+	display: flex;
+	left: 240px;
+	position: relative;
+	width: 300px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: wheat;
+}
+.button{
+	height: 40px;
+	left: 10px;
+	font-size: 15px;
+	top: 0px;
+	background-color: wheat;
+	border: none;
+	outline: none;
+	border-left: 1px solid ;
+	position: relative;
+}
+#txtNumber{
+	left: 10px;
+	top: 10px;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	background-color: wheat;
+	position: relative;
+}
